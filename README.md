@@ -1,5 +1,6 @@
 # AimaCity Official Website
 
+官方地址： [https://aima.city](https://aima.city) ， 欢迎参与。
 
 The website for AimaCity. You can see the generated files at [aimacity/aimacity.github.io](https://github.com/aimacity/aimacity.github.io) repository.
 
@@ -30,5 +31,4 @@ $ hexo server
 
 [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
 
-[tommy351]: https://github.com/tommy351
-[pinggod]: https://github.com/pinggod
+[zhihuwang]: https://github.com/zhihuwang
