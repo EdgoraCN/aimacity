@@ -15,9 +15,18 @@ post_asset_folder: true
 per_page: 0
 
 theme: navy
+#deploy:
+#  type: git
+#  repo: https://github.com/aimacity/aimacity.github.io.git
+
 deploy:
-  type: git
-  repo: git@github.com:aimacity/aimacity.github.io.git
+  type: sftp
+  host: aima.city
+  user: ec2-user
+#  pass: <password>
+  remotePath: /home/wwwroot/aima.city
+  port: 22
+  privateKey: d:/workspace/aws
 
 highlight:
   enable: true
