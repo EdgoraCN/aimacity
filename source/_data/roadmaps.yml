@@ -1,0 +1,56 @@
+- name: 1. JAVA开发的自我修炼
+  description: 个人java开发经验分享，主要是补充一些自己认为比较有用但是培训学校和机构都可能不讲的东西
+  link: java-learning
+  preview: java-learning
+  tags:
+    - 学习方法
+    - 经验总结
+    - JAVA
+    - web开发
+    - 自主学习
+
+- name: 2. 前端开发的自我修炼
+  description: 个人前端开发经验分享，主要是梳理一下脉络和自己学习方法。
+  link: front-learning
+  preview: front-learning
+  tags:
+    - 学习方法
+    - 经验总结
+    - javascript
+    - css
+    - html
+    - 自主学习
+
+- name: 3. springboot+vue 前后端分离方案
+  description: 主要分享如何使用热门的springboot和vue搭建一套框架，需要考虑的问题，以及解决方法。
+  link: springboot-vue
+  preview: springboot-vue
+  tags:
+    - 架构设计
+    - 解决方案
+    - springboot
+    - vue
+    - 框架搭建
+
+- name: 4. springboot + ionic 移动端跨平台方案
+  description: 主要分享如何通过ionic完成移动端的开发以及与后台的交互，需要考虑的问题以及解决方法。
+  link: springboot-ionic
+  preview: springboot-ionic
+  tags:
+    - 移动开发
+    - 解决方案
+    - HTML5跨平台
+    - springboot
+    - ionic
+
+- name: 5. 基于docker+k8s的devops方案
+  description: 主要分享如何使用docker等开源工具打造一套devops流水线。
+  link: docker-k8s
+  preview: docker-k8s
+  tags:
+    - devops
+    - 解决方案
+    - docker
+    - k8s
+    - 工具链
+    - 自动化
