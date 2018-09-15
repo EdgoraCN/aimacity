@@ -58,7 +58,8 @@ hexo.extend.helper.register('page_nav', function() {
 });
 
 hexo.extend.helper.register('doc_sidebar', function(className) {
-	var type = this.page.canonical_path.split('/')[0];
+	var paths = this.page.canonical_path.split('/');
+	var type = paths[paths.length - 2];
 	var sidebar = this.site.data.sidebar[type];
 	var path = pathFn.basename(this.path);
 	var result = '';

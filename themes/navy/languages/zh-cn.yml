@@ -21,5 +21,13 @@ page:
   last_updated: 上次更新：%s
 
 sidebar:
-  docs:
-    getting_started: 开始
+  java-learning:
+    quickstart: 快速入门
+    overview: 路线图
+    setup: 环境搭建
+    upgrade: 进阶
+    jvm: JVM
+    jdbc: JDBC
+    mvc: MVC
+    network: 网络
+    pattern: 设计模式
