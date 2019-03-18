@@ -8,27 +8,26 @@ The website for AimaCity. You can see the generated files at [aimacity/aimacity.
 
 Install dependencies:
 
-``` bash
-$ git clone https://github.com/aimacity/aimacity.git
-$ cd site
-$ npm install
+```bash
+ git clone https://github.com/aimacity/aimacity.git
+ cd aimacity
+ npm install  --registry=https://registry.npm.taobao.org
 ```
 
 Generate:
 
-``` bash
-$ hexo generate
+```bash
+npm install hexo-cli -g
+hexo generate
 ```
 
 Run server:
 
-``` bash
-$ hexo server
+```bash
+ hexo server
 ```
-
 
 ## License
 
-[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
-
-[zhihuwang]: https://github.com/zhihuwang
+[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) 
+[AimaCity](https://github.com/aimacity)

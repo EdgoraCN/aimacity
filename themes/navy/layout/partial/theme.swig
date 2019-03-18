@@ -1,9 +1,9 @@
 <li class="plugin on">
   <div class="plugin-screenshot">
     <noscript>
-      <img src="{{ url_for('roadmaps/screenshots/' + plugin.link + '.png') }}" class="plugin-screenshot-img" alt="{{ plugin.name }}">
+      <img src="{{ url_for_qn('images/screenshots/' + plugin.link + '.png') }}" class="plugin-screenshot-img" alt="{{ plugin.name }}">
     </noscript>
-    <img data-src="{{ url_for('roadmaps/screenshots/' + plugin.link + '.png') }}" data-sizes="auto" class="plugin-screenshot-img lazyload" alt="{{ plugin.name }}">
+    <img data-src="{{ url_for_qn('images/screenshots/' + plugin.link + '.png') }}" data-sizes="auto" class="plugin-screenshot-img lazyload" alt="{{ plugin.name }}">
     {% if plugin.preview %}
     <a href="{{ plugin.preview }}" class="plugin-preview-link" target="_blank"><i class="fa fa-eye"></i></a>
     {% endif %}

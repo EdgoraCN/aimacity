@@ -26,7 +26,7 @@ deploy:
 #  pass: <password>
   remotePath: /home/wwwroot/aima.city
   port: 22
-  privateKey: d:/workspace/aws
+  privateKey: /media/software/workspace/aws
 
 highlight:
   enable: true
@@ -46,3 +46,22 @@ algolia:
     index_name: aimacity
 twitter: wangzhihu
 github: aimacity
+qiniu:
+  offline: false
+  sync: true
+  bucket: aimacity
+  secret_file: /media/software/workspace/qiniu.json
+  access_key: AccessKey
+  secret_key: SecretKey
+  dirPrefix: static
+  urlPrefix: http://pokmk0bdn.bkt.clouddn.com/static
+  up_host: https://upload-z0.qiniup.com
+  local_dir: source
+  update_exist: true
+  image: 
+    folder: images
+    extend: 
+  js:
+    folder: js
+  css:
+    folder: css

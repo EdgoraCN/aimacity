@@ -3,5 +3,5 @@ comments: true
 ---
 
 <p align="center">
-{% img  /roadmaps/screenshots/docker-k8s.png 360 225 AimaCity %}
+{% qnimg  screenshots/docker-k8s.png 360 225 AimaCity %}
 </p>

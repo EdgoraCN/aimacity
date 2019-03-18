@@ -3,7 +3,7 @@ comments: true
 ---
 
 <p align="center">
-{% img  /logo-color.svg 200 200 AimaCity %}
+ {% img  /logo-color.svg 200 200 AimaCity %}
 </p>
 
 希望AimaCity能为自己大家做一些小小的贡献，感谢自己坚持，以及大家的支持 ，相关代码将会放入[github](https://github.com/aimacity)，欢迎加入。 
@@ -50,17 +50,17 @@ comments: true
 ## 交流和联系
 
 <p align="center">
-{% img  /images/qq.png 200 200 QQ群 %}
+{% qnimg  qq.png 200 200 QQ群 extend:?imageView2/2/w/250 %}
 ***QQ群：680784650***
-{% img  /images/qrcode.jpg 200 200 微信公众号 %}
+{% qnimg  qrcode.jpg 200 200 微信公众号 extend:?imageView2/2/w/250  %}
 ***微信公众号：AimaCity***
 </p>
 
 ## 捐赠和支持
 
 <p align="center">
-{% img  /images/wechat-pay.png 200 200 微信 %}
-微信（你会送上一分钱的鼓励吗）
+{% qnimg  wechat-pay.png 200 200 微信 extend:?imageView2/2/w/250  %}
+***微信***
 </p>
 
 ** 最后, 欢迎大家积极参与，支持吐糟，出谋划策均可! **
