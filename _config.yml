@@ -54,7 +54,7 @@ qiniu:
   access_key: AccessKey
   secret_key: SecretKey
   dirPrefix: static
-  urlPrefix: http://pokmk0bdn.bkt.clouddn.com/static
+  urlPrefix: http://aimacity.hyitec.com/static
   up_host: https://upload-z0.qiniup.com
   local_dir: source
   update_exist: true
